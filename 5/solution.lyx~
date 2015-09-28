@@ -104,11 +104,7 @@
 \end_inset
 
  есть слово, которое будет декодировано неправильно.
- 
-\end_layout
-
-\begin_layout Standard
-Это означает, что 
+ Это означает, что 
 \begin_inset Formula $\exists y\exists x\in C:\ ||x_{0}-y||\leqslant t\text{,\quad}|x_{0}-y||\geqslant||x-y||$
 \end_inset
 
@@ -145,11 +141,7 @@
 \begin_inset Formula $x_{0}$
 \end_inset
 
- будет ошибочно распознано как кодовое, 
-\end_layout
-
-\begin_layout Standard
-то есть 
+ будет ошибочно распознано как кодовое, то есть 
 \begin_inset Formula $\exists x\in C:\ ||x-x_{0}||\leqslant d-1$
 \end_inset
 
