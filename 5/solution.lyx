@@ -109,7 +109,7 @@
 
 \begin_layout Standard
 Это означает, что 
-\begin_inset Formula $\exists y\exists x\in C:\ ||x_{0}-y||\leqslant t\text{,\quad}|x_{0}-y||\geqslant||x-y||$
+\begin_inset Formula $\exists y\exists x\in C:\ ||x_{0}-y||\leqslant t\text{,\quad}||x_{0}-y||\geqslant||x-y||$
 \end_inset
 
 
