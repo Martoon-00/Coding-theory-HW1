@@ -73,7 +73,7 @@
 \end_layout
 
 \begin_layout Standard
-(!) Пусть x, y
+(!) Пусть x, y 
 \begin_inset Formula $\subset$
 \end_inset
 
@@ -111,11 +111,25 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $d(x,\,y)={\displaystyle \sum_{k=1}^{n}|x_{k}-y_{k}|}\geq0,$
+\begin_inset Formula $d(x,\,y)={\displaystyle \sum_{k=1}^{n}|x_{k}-y_{k}|}\geqslant0,$
 \end_inset
 
  так как 
-\begin_inset Formula $|x_{k}-y_{k}|\geq0$
+\begin_inset Formula $|x_{k}-y_{k}|\geqslant0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d(x,\,y)=0\ \Leftrightarrow\ \sum_{k=1}^{n}|x_{k}-y_{k}|\geqslant0\ \Leftrightarrow\ \forall k=1..n:\ |x_{k}-y_{k}|=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow\ \forall k=1..n:\ x_{k}=y_{k}\ \Leftrightarrow\ x=y$
 \end_inset
 
 
@@ -149,7 +163,7 @@
 
 .
  Докажем, что 
-\begin_inset Formula $d(x,\,z)\leq d(x,\,y)+d(y,\,z)$
+\begin_inset Formula $d(x,\,z)\leqslant d(x,\,y)+d(y,\,z)$
 \end_inset
 
 .
@@ -161,7 +175,7 @@
 
 .
  При этом 
-\begin_inset Formula $|x_{k}-z_{k}|\leq|x_{k}-y_{k}|+|y_{k}-z_{k}|$
+\begin_inset Formula $|x_{k}-z_{k}|\leqslant|x_{k}-y_{k}|+|y_{k}-z_{k}|$
 \end_inset
 
  верно по свойствам модуля.
